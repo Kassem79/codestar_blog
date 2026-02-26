@@ -19,8 +19,8 @@ class Post(models.Model):
     updated_on = models.DateTimeField(auto_now=True)
 
 
-    class Meta:
-        ordering = ["-created_on"]
+class Meta:
+    ordering = ["-created_on"]
     
     def __str__(self):
         return f"{self.title} | written by {self.author}"
