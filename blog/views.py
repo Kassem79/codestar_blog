@@ -30,3 +30,6 @@ def post_detail(request, slug):
     post = get_object_or_404(queryset, slug=slug)
 
     return render(request, "blog/post_detail.html", {"post": post},)
+
+
+
