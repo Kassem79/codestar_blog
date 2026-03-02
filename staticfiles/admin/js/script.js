@@ -1,2 +1,1 @@
-console.log("Life, The Universe and Everything!");
-console.log("JS connected");
+console.log("Life, the Universe and Everything!")
