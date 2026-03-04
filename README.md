@@ -69,7 +69,8 @@ codestar/
 ├── manage.py
 └── README.md
 
-
+## Testing
+Django automatically discovers tests inside files named tests.py or test_*.py within installed apps. If no tests are defined, the command will return Found 0 test(s), which simply means that no test cases have been created yet.
 
 
 
