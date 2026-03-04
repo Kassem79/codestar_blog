@@ -69,8 +69,30 @@ codestar/
 ├── manage.py
 └── README.md
 
-## Testing
+## Testing blog
 Django automatically discovers tests inside files named tests.py or test_*.py within installed apps. If no tests are defined, the command will return Found 0 test(s), which simply means that no test cases have been created yet.
+
+Django performed the following steps:
+
+1️⃣ Found 1 test(s)
+Django discovered one test case in your project.
+
+2️⃣ Creating test database for alias 'default'...
+Django created a temporary test database so your real project data is not affected during testing.
+
+3️⃣ System check identified no issues
+Django checked your project configuration and found no problems.
+
+4️⃣ Ran 1 test in 0.001s
+The test executed successfully and completed very quickly.
+
+5️⃣ OK
+This means the test passed with no errors or failures. ✅
+
+6️⃣ Destroying test database for alias 'default'...
+After the tests finished, Django deleted the temporary test database to clean up.
+
+✅ In summary: Django successfully ran your test in an isolated environment and everything worked correctly.
 
 
 
